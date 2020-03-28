@@ -1,0 +1,4 @@
+[bar/bar-laptop]
+inherit = bar/default
+
+modules-right = arrow<- space cpu memory temperature battery wlan date powermenu network space

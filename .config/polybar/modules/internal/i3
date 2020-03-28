@@ -1,0 +1,23 @@
+[module/i3]
+type = internal/i3
+
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+; focused = Active workspace on focus
+label-focused = %index%
+label-focused-underline= ${colors.primary}
+label-focused-padding = 1
+
+; unfocused = Inactive workpace out of focus
+label-occupied = %name%
+label-occupied-padding = 1
+
+; urgent = Workspace with urgency hint set
+label-urgent = %index%!
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+
+; Separator in between workspaces
+label-separator = " "
